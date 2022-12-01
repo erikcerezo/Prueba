@@ -1,0 +1,185 @@
+*{
+	box-sizing: border-box;
+}
+
+/*Estilopara body*/
+body{
+	font-family: sans-serif;
+	color: #3333333;
+	background-color: #eeeeee;
+    
+}
+
+/*Estilo para Contenedor*/
+.container{
+    width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1300px;
+	background-color: #FFFFFF;
+}
+
+/*Estilos para Headers*/
+.header{
+	background-color:darkgray
+}
+
+.header-wrapper{
+	max-width: 1200px;
+    margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.header-logo{
+	float: left;
+	height: 60px
+}
+
+.header-menu{
+	float: right
+}
+
+.header-menu-wrapper{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.header-menu-item{
+	display: inline-block;
+	font-size: 18px;
+}
+
+.header-menu-link{
+	height: 60px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;	
+	line-height:60px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 700;
+}
+.consult-link{
+	height: 60px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;	
+	line-height:60px;
+	color:blue;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+name-school{
+    float: left;
+    margin-top: 15px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+.cover-wrapper{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	
+}
+.cover-photo-container{
+	margin-bottom: 40px
+}
+.cover-photo{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+}
+
+.title{
+	color: #606060;
+	text-align: center;
+	font-size: 26px;
+}
+.cover-description{
+	background-color: #ffffff;
+	padding: 10px;
+	font-size: 18px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*para sección*/
+.title{
+	color: #606060;
+	text-align: center;
+	font-size: 26px;
+}
+
+/*Estilo para Tabla*/
+.align-section-column{    
+	width: 29%;
+	text-align: justify;
+    line-height: 25px;
+	float: left;
+	padding-right: 20px;	
+	padding-left: 20px;
+}    
+
+
+.align-section-center{
+    width: 29%;
+	text-align: center;
+    line-height: 25px;
+	float: left;
+	padding-right: 20px;	
+	padding-left: 20px;
+}
+
+.align-section{
+    padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;	
+	margin-top: 0px;
+}
+text-table{
+    text-align: left;    
+}
+
+.table-consult{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    padding: 12px;
+    background-color: #dddddd;
+}
+
+table{
+    float: left;
+    margin-left: auto;
+	margin-right: auto;    
+}
+
+/*Estilo del footer*/
+.footer{
+	background: #d1d1d1;
+	margin-top: 10px;
+	
+}
+
+.footer-wrapper{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+.footer-text{
+	font-size: 18px
+}
